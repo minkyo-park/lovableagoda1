@@ -26,7 +26,7 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     question: "아고다 할인코드란 무엇인가요?",
-    answer: "아고다 할인코드(프로모션 코드)는 아고다에서 호텔 예약 시 추가 할인을 받을 수 있는 특별 코드입니다. 결제 과정에서 코드를 입력하면 총 예약 금액에서 일정 비율 또는 금액이 할인됩니다. 할인코드는 아고다 공식 프로모션, 카드사 제휴, 시즌 이벤트 등을 통해 제공되며, 각 코드마다 할인율, 유효기간, 최소 주문 금액 등의 조건이 다릅니다. 본 사이트에서는 현재 사용 가능한 모든 아고다 할인코드를 수집하여 검증 후 제공하고 있습니다."
+    answer: "아고다 할인코드(프로모션 코드)는 아고다에서 호텔 예약 시 추가 할인을 받을 수 있는 특별 코드입니다. 결제 과정에서 코드를 입력하면 총 예약 금액에서 일정 비율 또는 금액이 할인됩니다. 할인코드는 아고다 공식 프로모션, 카드사 제휴, 시즌 이벤트 등을 통해 제공되며, 각 코드마다 할인율, 유효기간, 최소 주문 금액 등의 조건이 다릅니다. 본 사이트에서는 현재 사용 가능한 모든 아고다 할인코드를 수집하여 검증 후 제공하고 있으며, 더 많은 할인 정보는 <a href='https://xn--bk1b700b1cz40buif.com/dealstore/agoda/' target='_blank' rel='noopener noreferrer' style='color: hsl(var(--primary)); text-decoration: underline;'>아고다 할인코드</a> 페이지에서도 확인하실 수 있습니다."
   },
   {
     question: "아고다 할인코드는 어떻게 사용하나요?",
@@ -100,7 +100,7 @@ const FAQAccordion = ({ item, index }: { item: FAQItem; index: number }) => {
       </button>
       {open && (
         <div className="px-5 pb-5 border-t border-border">
-          <p className="text-muted-foreground text-sm leading-relaxed pt-4">{item.answer}</p>
+          <p className="text-muted-foreground text-sm leading-relaxed pt-4" dangerouslySetInnerHTML={{ __html: item.answer }} />
         </div>
       )}
     </div>

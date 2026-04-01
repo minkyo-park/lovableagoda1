@@ -84,7 +84,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <Tag className="h-5 w-5" /> 아고다 할인코드
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                아고다 할인코드 정보를 제공하는 사이트입니다. 최신 프로모션 코드와 쿠폰 정보를 통해 여행 경비를 절약하세요. 본 사이트는 아고다 제휴 파트너로서 운영됩니다.
+                <a href="https://xn--bk1b700b1cz40buif.com/dealstore/agoda/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">아고다 할인코드</a> 정보를 제공하는 사이트입니다. 최신 프로모션 코드와 쿠폰 정보를 통해 여행 경비를 절약하세요. 본 사이트는 아고다 제휴 파트너로서 운영됩니다.
               </p>
             </div>
             <div>

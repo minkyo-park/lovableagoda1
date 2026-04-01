@@ -285,7 +285,7 @@ const HowToUse = () => {
       <section className="container mx-auto px-4 py-16 text-center">
         <h2 className="text-3xl font-bold text-foreground mb-4">지금 바로 아고다 할인코드를 적용해보세요!</h2>
         <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-          위 가이드를 따라하면 누구나 쉽게 아고다 할인코드를 적용할 수 있습니다. 지금 메인 페이지에서 최신 할인코드를 확인하세요.
+          위 가이드를 따라하면 누구나 쉽게 아고다 할인코드를 적용할 수 있습니다. 지금 메인 페이지에서 최신 할인코드를 확인하거나, <a href="https://xn--bk1b700b1cz40buif.com/dealstore/agoda/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">아고다 할인코드</a> 전용 페이지에서 더 많은 혜택을 찾아보세요.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="/">
