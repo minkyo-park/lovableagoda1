@@ -322,7 +322,7 @@ const Comparison = () => {
       <section className="container mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-foreground text-center mb-4">🏆 아고다를 선택해야 하는 이유</h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">
-          종합적인 비교 결과, 아고다는 특히 아시아 여행 시 할인코드 혜택이 가장 뛰어난 플랫폼입니다.
+          종합적인 비교 결과, 아고다는 특히 아시아 여행 시 할인코드 혜택이 가장 뛰어난 플랫폼입니다. 최신 <a href="https://solar-revival.co.kr/agoda" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">아고다 할인코드</a>를 함께 활용하면 더욱 저렴하게 예약할 수 있습니다.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
@@ -381,7 +381,7 @@ const Comparison = () => {
             비교 결과, 아고다가 최선의 선택!
           </h2>
           <p className="text-primary-foreground/80 max-w-xl mx-auto mb-8">
-            특히 아시아 여행 시 <a href="https://solar-revival.co.kr/agoda" target="_blank" rel="noopener noreferrer" className="text-secondary hover:underline font-medium">아고다 할인코드</a>를 활용하면 다른 어떤 플랫폼보다 저렴하게 호텔을 예약할 수 있습니다.
+            특히 아시아 여행 시 아고다 할인코드를 활용하면 다른 어떤 플랫폼보다 저렴하게 호텔을 예약할 수 있습니다.
           </p>
           <a href={AFFILIATE_LINK} target="_blank" rel="noopener noreferrer nofollow">
             <Button variant="cta" size="lg" className="text-lg px-10 py-6 h-auto">
