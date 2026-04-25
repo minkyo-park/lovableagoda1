@@ -57,7 +57,7 @@ const coupons = [
     code: "8% 지역코드",
     discount: "8% 즉시 할인",
     description: "태국, 인도네시아, 이탈리아, 말레이시아 숙소 전용. 전용 프로모션 링크 경유 필수",
-    expiry: "2026.03.31 (투숙 12.31까지)",
+    expiry: "2026.05.31 (투숙 12.31까지)",
     category: "인기지역",
     isHot: true,
     image: coupon8pctRegion,
@@ -76,7 +76,7 @@ const coupons = [
     code: "LPAGDKR10",
     discount: "5% 즉시 할인",
     description: "대한민국 국내 숙소 전용 코드. 전용 프로모션 링크 경유 및 한국어 사이트 접속 필수",
-    expiry: "2026.03.31",
+    expiry: "2026.05.31",
     category: "국내전용",
     image: coupon5pctKorea,
   },
@@ -95,7 +95,7 @@ const cardPromotions = [
     name: "삼성카드",
     emoji: "🔵",
     discount: "최대 10%",
-    period: "2026년 4월 30일까지",
+    period: "2026년 5월 31일까지",
     condition: "삼성카드 실물 카드 선불 결제 (간편결제 제외)",
     note: "예산 소진 시 조기 종료, 전용 링크 경유 필수",
     image: cardSamsung,
@@ -104,7 +104,7 @@ const cardPromotions = [
     name: "신한카드",
     emoji: "🔴",
     discount: "최소 7% (말레이시아·이탈리아·인도네시아 10%)",
-    period: "2026년 4월 30일까지",
+    period: "2026년 5월 31일까지",
     condition: "신한카드 전용 페이지 접속 후 결제",
     note: "선착순 자동 적용",
     image: cardShinhan,
@@ -122,7 +122,7 @@ const cardPromotions = [
     name: "하나카드",
     emoji: "🟡",
     discount: "최소 7%",
-    period: "2026년 4월 30일까지",
+    period: "2026년 5월 31일까지",
     condition: "하나카드 전용 페이지 접속 후 결제",
     note: "선착순 마감",
     image: cardHana,
@@ -131,7 +131,7 @@ const cardPromotions = [
     name: "현대카드",
     emoji: "🟠",
     discount: "최소 7%",
-    period: "2026년 4월 30일까지",
+    period: "2026년 5월 31일까지",
     condition: "현대카드 전용 프로모션 페이지 접속 후 결제",
     note: "",
     image: cardHyundai,
@@ -174,7 +174,7 @@ const regularPromos = [
     title: "조기 예약 할인 (Early Bird)",
     time: "매주 토·일요일 예약 건 한정",
     discount: "최대 25%",
-    region: "체크인 90일 이전 예약 시 (2026.03.31까지)",
+    region: "체크인 90일 이전 예약 시 (2026.05.31까지)",
   },
 ];
 
@@ -182,9 +182,9 @@ const Index = () => {
   const schemaOrg = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "아고다 할인코드 및 쿠폰 4월 링크 복사",
+    name: "아고다 할인쿠폰",
     url: "https://lvagd.agd-offer.co.kr",
-    description: "2026년 4월 최신 아고다 할인코드 및 쿠폰 총정리. 공식 프로모션 코드, 카드사 제휴 할인, 최대 12% 할인 링크를 지금 바로 확인하고 복사하세요.",
+    description: "5월 아고다 할인쿠폰 총정리! 국내 여행, 일본 여행 전용 아고다 할인코드부터 카카오페이 할인 혜택, 전용 할인링크까지 한 번에. 지금 바로 쓸 수 있는 아고다 할인쿠폰 모음! 5월 최신 할인 정보를 확인해보세요.",
     potentialAction: {
       "@type": "SearchAction",
       target: "https://lvagd.agd-offer.co.kr/?q={search_term_string}",
@@ -196,7 +196,7 @@ const Index = () => {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "아고다 할인코드 목록",
-    description: "2026년 4월 기준 아고다 공식 할인코드 및 쿠폰, 프로모션 코드 모음",
+    description: "2026년 5월 기준 아고다 공식 할인코드 및 쿠폰, 프로모션 코드 모음",
     itemListElement: coupons.map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -224,7 +224,7 @@ const Index = () => {
         </div>
         <div className="relative container mx-auto px-4 py-20 md:py-32 text-center">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-primary-foreground mb-6 leading-tight">
-            2026년 4월 최신<br />
+            2026년 5월 최신<br />
             <span className="text-secondary">아고다 할인코드</span> 완전 정리
           </h1>
           <p className="text-primary-foreground/90 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
@@ -242,7 +242,7 @@ const Index = () => {
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-6 text-primary-foreground/80 text-sm">
             <span className="flex items-center gap-1"><Shield className="h-4 w-4" /> 공식 검증 코드</span>
-            <span className="flex items-center gap-1"><Clock className="h-4 w-4" /> 2026년 4월 기준</span>
+            <span className="flex items-center gap-1"><Clock className="h-4 w-4" /> 2026년 5월 기준</span>
             <span className="flex items-center gap-1"><TrendingUp className="h-4 w-4" /> 최대 30% 할인</span>
           </div>
         </div>
@@ -275,7 +275,7 @@ const Index = () => {
       {/* Discount Codes Section */}
       <section id="coupons" className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">🎟️ 2026년 4월 사용 가능한 공식 할인코드</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">🎟️ 2026년 5월 사용 가능한 공식 할인코드</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             아고다 공식 할인코드입니다. 어필리에이트·인플루언서 커미션 코드는 제외한 검증된 코드만 수록했습니다.
           </p>
@@ -291,7 +291,7 @@ const Index = () => {
       {/* 카드사 제휴 프로모션 */}
       <section className="bg-muted py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-4">💳 카드사 제휴 프로모션 (2026년 4월)</h2>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-4">💳 카드사 제휴 프로모션 (2026년 5월)</h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">
             별도 코드 없이 해당 카드로 결제하면 자동 적용됩니다. 반드시 카드사 전용 프로모션 페이지를 통해 접속해야 합니다.
           </p>

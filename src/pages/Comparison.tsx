@@ -23,9 +23,9 @@ const Comparison = () => {
     "@type": "Article",
     headline: "아고다 vs 경쟁 플랫폼 비교분석 - 할인코드 혜택 비교",
     description: "아고다와 부킹닷컴, 호텔스닷컴, 익스피디아, 트립닷컴 등 주요 호텔 예약 플랫폼의 할인코드 혜택, 가격, 서비스를 상세히 비교 분석합니다.",
-    author: { "@type": "Organization", name: "아고다 할인코드" },
-    datePublished: "2026-03-08",
-    dateModified: "2026-03-08",
+    author: { "@type": "Organization", name: "아고다 할인쿠폰" },
+    datePublished: "2026-05-01",
+    dateModified: "2026-05-07",
   };
 
   const breadcrumbSchema = {
@@ -118,7 +118,7 @@ const Comparison = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-foreground text-center mb-4">💰 지역별 평균 호텔 가격 비교</h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">
-            동일한 호텔을 각 플랫폼에서 검색했을 때의 평균 가격을 비교했습니다. (2026년 4월 기준, 1박 기준)
+            동일한 호텔을 각 플랫폼에서 검색했을 때의 평균 가격을 비교했습니다. (2026년 5월 기준, 1박 기준)
           </p>
 
           <div className="overflow-x-auto">

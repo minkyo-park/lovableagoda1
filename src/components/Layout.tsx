@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Menu, X, Tag, Plane } from "lucide-react";
 
 const navItems = [
-  { path: "/", label: "아고다 할인코드" },
+  { path: "/", label: "아고다 할인쿠폰" },
   { path: "/how-to-use", label: "사용방법" },
   { path: "/comparison", label: "비교분석" },
   { path: "/faq", label: "자주 묻는 질문" },
@@ -19,7 +19,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <nav className="container mx-auto flex items-center justify-between px-4 py-3" aria-label="메인 네비게이션">
           <Link to="/" className="flex items-center gap-2 font-bold text-xl text-primary">
             <Tag className="h-6 w-6" />
-            <span>아고다 할인코드</span>
+            <span>아고다 할인쿠폰</span>
           </Link>
 
           {/* Desktop nav */}
@@ -81,10 +81,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="font-bold text-lg mb-4 flex items-center gap-2 text-primary">
-                <Tag className="h-5 w-5" /> 아고다 할인코드
+                <Tag className="h-5 w-5" /> 아고다 할인쿠폰
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                <a href="https://xn--bk1b700b1cz40buif.com/dealstore/agoda/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">아고다 할인코드</a> 정보를 제공하는 사이트입니다. 최신 프로모션 코드와 쿠폰 정보를 통해 여행 경비를 절약하세요. 본 사이트는 아고다 제휴 파트너로서 운영됩니다.
+                <a href="https://xn--bk1b700b1cz40buif.com/dealstore/agoda/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">아고다 할인쿠폰</a> 정보를 제공하는 사이트입니다. 최신 프로모션 코드와 쿠폰 정보를 통해 여행 경비를 절약하세요. 본 사이트는 아고다 제휴 파트너로서 운영됩니다.
               </p>
             </div>
             <div>
@@ -115,7 +115,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm">
-            <p>© {new Date().getFullYear()} 아고다 할인코드. 이 사이트는 Agoda 제휴 프로그램에 참여하고 있습니다.</p>
+            <p>© {new Date().getFullYear()} 아고다 할인쿠폰. 이 사이트는 Agoda 제휴 프로그램에 참여하고 있습니다.</p>
             <p className="mt-1">본 사이트의 링크를 통해 예약하시면 소정의 커미션을 받을 수 있습니다.</p>
           </div>
         </div>

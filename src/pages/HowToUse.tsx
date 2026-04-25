@@ -20,8 +20,8 @@ const HowToUse = () => {
   const schema = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "아고다 할인코드 사용방법",
-    description: "아고다 할인코드를 적용하여 호텔 예약 시 추가 할인을 받는 방법을 단계별로 안내합니다.",
+    name: "아고다 할인쿠폰 사용방법",
+    description: "아고다 할인쿠폰을 적용하여 호텔 예약 시 추가 할인을 받는 방법을 단계별로 안내합니다.",
     step: [
       { "@type": "HowToStep", position: 1, name: "할인코드 선택 및 복사", text: "아고다 할인코드 사이트에서 원하는 할인코드를 찾고 복사 버튼을 클릭합니다." },
       { "@type": "HowToStep", position: 2, name: "아고다 접속", text: "적용하기 버튼을 클릭하여 아고다 공식 사이트로 이동합니다." },
