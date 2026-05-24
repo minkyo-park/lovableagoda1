@@ -16,11 +16,11 @@ import japanHotel from "@/assets/japan-hotel.jpg";
 import worldMap from "@/assets/world-map.jpg";
 import romanticTravel from "@/assets/romantic-travel.jpg";
 
-import coupon5pctBasic from "@/assets/coupon-5pct-basic.png";
-import coupon7pctNew from "@/assets/coupon-7pct-new.png";
-import coupon8pctRegion from "@/assets/coupon-8pct-region.png";
-import coupon60usd from "@/assets/coupon-60usd.png";
-import coupon5pctKorea from "@/assets/coupon-5pct-korea.png";
+import coupon5pctBasic from "@/assets/coupon-1.webp";
+import coupon7pctNew from "@/assets/coupon-2.webp";
+import coupon8pctRegion from "@/assets/coupon-3.webp";
+import coupon60usd from "@/assets/coupon-4.webp";
+import coupon5pctKorea from "@/assets/coupon-5.webp";
 import couponAppOnly from "@/assets/coupon-app-only.png";
 
 import cardSamsung from "@/assets/card-samsung.png";

@@ -37,7 +37,7 @@ const CouponCard = ({ code, discount, description, expiry, category, minOrder, i
         </div>
       )}
       {image && (
-        <img src={image} alt={`${discount} - ${code}`} className="w-full h-24 md:h-40 object-cover" loading="lazy" />
+        <img src={image} alt={`${discount} - ${code}`} className="w-full max-w-[180px] h-auto mx-auto mt-3 md:mt-4 rounded-lg" loading="lazy" />
       )}
       <div className="p-3 md:p-6">
         <div className="flex items-center gap-1 md:gap-2 mb-2 md:mb-3 flex-wrap">
